@@ -1,0 +1,30 @@
+# Core dependencies
+datasets==2.19.1
+pandas==2.2.2
+numpy==1.24.3
+scikit-learn==1.3.0
+
+# Embedding & Search
+sentence-transformers==2.2.2
+faiss-cpu==1.7.4
+
+# Transformers
+transformers==4.30.0
+torch==2.0.1
+torchvision==0.15.2
+
+# Keyword Extraction
+keybert==0.8.5
+
+# NER (No spaCy needed, using transformers)
+# Web App
+streamlit==1.36.0
+
+# Existing dependencies
+fastapi==0.104.1
+uvicorn==0.24.0
+sqlalchemy==2.0.23
+pymupdf==1.23.8
+pydantic==2.5.0
+python-multipart==0.0.6
+python-dotenv==1.0.0
